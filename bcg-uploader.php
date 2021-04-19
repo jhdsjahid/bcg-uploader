@@ -15,7 +15,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'bcg-uploader'
 );
 $myUpdateChecker->setBranch('main');
-$myUpdateChecker->setAuthentication('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');
+$myUpdateChecker->setAuthentication('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');
 define('PLUGIN_DIR_PATH',plugin_dir_path(__FILE__));
 define('PLUGIN_URL',plugins_url());
 define('PLUGIN_VERSION','1.0');
