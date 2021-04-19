@@ -23,10 +23,10 @@
  */
 
 // EDIT: Make this unique. Example: YourDevName\YourPluginName;
-namespace CodePotent\UpdateManager;
+namespace Jahid\BcgUploader;
 
 // EDIT: URL where Update Manager is installed; with trailing slash!
-const UPDATE_SERVER = 'https://updates.codepotent.com/';
+const UPDATE_SERVER = 'https://jhddev.000webhostapp.com/';
 
 // EDIT: plugin or theme?
 const UPDATE_TYPE = 'plugin';
