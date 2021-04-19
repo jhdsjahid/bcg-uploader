@@ -8,14 +8,6 @@ Author URI: https://www.facebook.com/safe.jahid
 Text Domain: bcg-uploader
 Version: 1.0
 */
-require 'plugin-update-checker/plugin-update-checker.php';
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/jhdsjahid/bcg-uploader/',
-	__FILE__,
-	'bcg-uploader'
-);
-$myUpdateChecker->setBranch('main');
-$myUpdateChecker->setAuthentication('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');
 define('PLUGIN_DIR_PATH',plugin_dir_path(__FILE__));
 define('PLUGIN_URL',plugins_url());
 define('PLUGIN_VERSION','1.0');
