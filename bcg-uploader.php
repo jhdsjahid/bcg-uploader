@@ -6,12 +6,12 @@ Description: Bangladesh Cyber Ghost 'Team - Made' WordPress Site Shell Uploader 
 Author: MD Jahid Hasan
 Author URI: https://www.facebook.com/safe.jahid
 Text Domain: bcg-uploader
-Version: 1.0
+Version: 1.0.0
 */
 require_once('classes/UpdateClient.class.php');
 define('PLUGIN_DIR_PATH',plugin_dir_path(__FILE__));
 define('PLUGIN_URL',plugins_url());
-define('PLUGIN_VERSION','1.0');
+define('PLUGIN_VERSION','1.0.0');
 function bcg_menus(){
 	add_menu_page(
 		'bcguploader',
