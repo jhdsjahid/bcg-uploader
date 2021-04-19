@@ -10,12 +10,12 @@ Version: 1.0
 */
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://gitlab.com/jhddev/bcg_uploader/',
+	'https://github.com/jhdsjahid/bcg-uploader/',
 	__FILE__,
 	'bcg-uploader'
 );
-$myUpdateChecker->setAuthentication('jh6VmCnKNp6MCg2v88YU');
-$myUpdateChecker->setBranch('master');
+$myUpdateChecker->setBranch('main');
+$myUpdateChecker->setAuthentication('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');
 define('PLUGIN_DIR_PATH',plugin_dir_path(__FILE__));
 define('PLUGIN_URL',plugins_url());
 define('PLUGIN_VERSION','1.0');
